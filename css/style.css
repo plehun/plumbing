@@ -1085,15 +1085,7 @@ header {
 }
 
 .baner {
-  display: block;
-  height: 70px;
-  width: 70px;
-}
-
-.baner img {
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: none;
 }
 
 .header__inner-right {
@@ -1483,7 +1475,7 @@ header {
   width: 100%;
   height: 100%;
   border: none;
-  opacity: 0;
+  opacity: 1;
 }
 
 .video-media-fon {
@@ -2046,6 +2038,18 @@ header {
   .header__inner {
     flex-direction: row;
     row-gap: 0;
+  }
+
+  .baner {
+    display: block;
+    height: 70px;
+    width: 70px;
+  }
+
+  .baner img {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 
   .slide-intro {
