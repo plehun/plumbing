@@ -791,6 +791,10 @@ body.popup-lock {
   z-index: -1;
 }
 
+.callback2 svg {
+  height: 100%;
+}
+
 h1,
 h2,
 h3 {
@@ -2533,7 +2537,7 @@ header {
   }
 
   .menu {
-    padding: 50px 15px 0 15px;
+    padding: 100px 15px 0 15px;
   }
 
   .menu__list li {
