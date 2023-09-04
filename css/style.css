@@ -913,6 +913,14 @@ button img {
   background: #06476d;
 }
 
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
 .btn-center {
   text-align: center;
 }
