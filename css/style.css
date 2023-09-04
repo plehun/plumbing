@@ -964,7 +964,8 @@ button img {
 
 header {
   position: fixed;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   top: 0;
   width: 100%;
   max-width: 1366px;
